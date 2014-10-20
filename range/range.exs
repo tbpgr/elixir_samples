@@ -1,0 +1,6 @@
+IO.inspect Range.new(1, 10) |> Enum.take(5)
+IO.inspect Range.new(65, 90) |> Enum.take(5)
+IO.inspect Range.range?(1..5)
+IO.inspect Range.range?(1)
+IO.inspect 1..10 |> Enum.take(5)
+IO.inspect 65..90 |> Enum.take(5)
